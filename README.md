@@ -48,11 +48,9 @@
 ### 1. リポジトリを取得する
 
 ```bash
-git clone https://github.com/ユーザー名/study-quest.git
+git clone https://github.com/inte1415gral-debug/study-quest.git
 cd study-quest
 ```
-
-`ユーザー名`は、公開したGitHubアカウント名に置き換えてください。
 
 ### 2. Dockerコンテナを起動する
 
@@ -105,9 +103,6 @@ http://localhost:8000/health
 ## 動作画面
 
 ![Study Questの動作画面](docs/screenshot.png)
-
-> アプリを起動して画面を撮影し、`docs/screenshot.png`という名前で保存してください。スクリーンショットを用意しない場合は、この節を削除してください。
-
 ## コンテナの停止
 
 起動中のターミナルで `Ctrl+C` を押すか、別のターミナルで次を実行します。
